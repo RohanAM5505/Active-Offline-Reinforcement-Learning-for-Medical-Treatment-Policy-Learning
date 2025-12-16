@@ -61,3 +61,15 @@ These results highlight a critical insight:
 ---
 
 ## Project Structure
+
+mdp/ # Medical MDP definition
+data/ # Offline dataset generation
+agent/ # # Offline Q-learning + active sampling
+experiments/ # Training, evaluation, and analysis scripts
+
+
+
+---
+
+
+
