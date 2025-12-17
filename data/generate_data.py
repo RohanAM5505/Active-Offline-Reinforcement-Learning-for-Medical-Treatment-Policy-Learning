@@ -45,4 +45,4 @@ for _ in range(6000):
 with open("dataset.pkl", "wb") as f:
     pickle.dump(dataset, f)
 
-print("✅ Offline medical dataset created with clinician behavior (dataset.pkl)")
+print(" Offline medical dataset created with clinician behavior (dataset.pkl)")
