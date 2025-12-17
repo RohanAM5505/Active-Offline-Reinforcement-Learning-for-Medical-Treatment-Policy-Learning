@@ -23,7 +23,6 @@ for _ in range(5):
         for s, a, r, s2, done in batch:
             active.update(s, a, r, s2, done)
 
-# Evaluation: agreement with logged actions
 def policy_agreement(agent, data):
     correct = 0
     for s, a, _, _, _ in data[:500]:
